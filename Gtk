@@ -1,0 +1,8 @@
+from gi.repository import Gtk
+
+class ExemploBox(Gtk.Window):
+    def __init__(self):
+        Gtk.Window.__init__(self,title="Exemplo de Box")
+        self.caixa =Gtk.Box(spacing=6)
+        self.add(self.caixa)
+        
